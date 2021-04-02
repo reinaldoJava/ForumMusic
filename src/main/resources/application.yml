@@ -1,0 +1,9 @@
+forum:
+  database:
+    mysql:
+      datasource-url: jdbc:mysql://localhost:3306/MyAppDb?useSSL=false&allowPublicKeyRetrieval=true
+      jdbc-driver: com.mysql.cj.jdbc.Driver
+      test-sql: SELECT 1 FROM DUAL
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      user: myapp-user
+      password: password
