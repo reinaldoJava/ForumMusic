@@ -1,7 +1,8 @@
-package com.forum.music.services;
+package com.forum.music.services.impl;
 
 import com.forum.music.entity.User;
 import com.forum.music.repository.UserRepository;
+import com.forum.music.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
